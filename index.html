@@ -2,7 +2,6 @@
 
 <head>
     <meta charset : "UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" />
     <title>Full Page Project</title>
@@ -17,21 +16,21 @@
         </header>
         <nav>
             <a href="#st1">
-                <div class="navbtn">
+                <div class="navbtn" id="btn1">
 
                     <h3>sous-titre1</h3>
 
                 </div>
             </a>
             <a href="#st2">
-                <div class="navbtn">
+                <div class="navbtn" id="btn2">
 
                     <h3>sous-titre2</h3>
 
                 </div>
             </a>
             <a href="#st3">
-                <div class="navbtn">
+                <div class="navbtn" id="btn3">
 
                     <h3>sous-titre3</h3>
 
@@ -41,7 +40,7 @@
         <div class="main">
             <section class="st1">
                 <h2 id="st1"> <span class="fas fa-square-full" id="square"></span>Sous-titre 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
+                <p class="stdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
                     purus et ipsum malesuada condimentum eget sed velit. Pellentesque felis eros, semper vitae tincidunt in, placerat nec turpis. Morbi auctor augue nec ultricies rutrum. Maecenas pharetra hendrerit ex eu cursus. Praesent sed nulla metus.
                     Cras finibus egestas justo, sit amet molestie nisl condimentum tincidunt. Etiam rutrum non quam ut iaculis. Aliquam id arcu ullamcorper, maximus nibh ac, fringilla arcu. Aliquam quis felis tellus. </p>
                 <br>
@@ -101,7 +100,7 @@
             <section class="st2">
                 </span>
                 <h2 id="st2"><span class="fas fa-square-full" id="square"></span>Sous-titre 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
+                <p class="stdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
                     purus et ipsum malesuada condimentum eget sed velit. Pellentesque felis eros, semper vitae tincidunt in, placerat nec turpis. Morbi auctor augue nec ultricies rutrum. Maecenas pharetra hendrerit ex eu cursus. Praesent sed nulla metus.
                     Cras finibus egestas justo, sit amet molestie nisl condimentum tincidunt. Etiam rutrum non quam ut iaculis. Aliquam id arcu ullamcorper, maximus nibh ac, fringilla arcu. Aliquam quis felis tellus. </p>
         </div>
@@ -111,7 +110,7 @@
             </section>
             <section class="st3">
                 <h2 id="st3"><span class="fas fa-square-full" id="square"></span>Sous-titre 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
+                <p class="stdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis, nunc eu pharetra vulputate, est lectus hendrerit tortor, varius faucibus arcu augue in dolor. Donec porttitor maximus ex. Vestibulum id ipsum velit. Etiam id
                     purus et ipsum malesuada condimentum eget sed velit. Pellentesque felis eros, semper vitae tincidunt in, placerat nec turpis. Morbi auctor augue nec ultricies rutrum. Maecenas pharetra hendrerit ex eu cursus. Praesent sed nulla metus.
                     Cras finibus egestas justo, sit amet molestie nisl condimentum tincidunt. Etiam rutrum non quam ut iaculis. Aliquam id arcu ullamcorper, maximus nibh ac, fringilla arcu. Aliquam quis felis tellus. </p>
                 <br>
@@ -121,14 +120,13 @@
                     <ul class="table2">
                         <li class="dim">
                             <form>
-                                <i class="far fa-user" id="ico"></i>
+                                <i class="far fa-user posiconom" id="ico"></i>
                                 <input class="ft1" type="text" placeholder="Nom Prénom" /><br>
-                                <i class="far fa-envelope" id="ico"></i>
+                                <i class="far fa-envelope posicomai" id="ico"></i>
                                 <input class="ft1" type="email" placeholder="Email" /><br>
-                                <i class="fas fa-phone" id="ico"></i>
+                                <i class="fas fa-phone posicopho" id="ico"></i>
                                 <input class="ft1" type="tel" placeholder="Téléphone" /><br>
-                                <li class="ico2 dim2">
-                                    <i class="far fa-comment" id="ico2"></i></li>
+                                <i class="far fa-comment posicocom" id="ico"></i>
                                 <li class="dim3"><textarea class="ft2" name="inf" id="infcomp">Votre commentaire</textarea><br></li>
                                 <input class="ft3" type="submit" value="SEND NOW" />
                             </form>
@@ -138,12 +136,10 @@
         </div>
     </div>
     <footer>
-
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-youtube"></i>
-
     </footer>
 </body>
 
